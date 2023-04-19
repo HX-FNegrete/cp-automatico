@@ -6,7 +6,7 @@ token = input('Ingresa tu Token Personal de Seguridad: ')
 
 # Defimos la URL del repo 
 #url = 'https://raw.githubusercontent.com/soyHenry/DS-M2-Checkpoint/blob/main/Generador-CP/CP_07_2.md'
-url = 'https://raw.githubusercontent.com/HX-FNegrete/cp-automatico'
+url = 'https://raw.githubusercontent.com/HX-FNegrete/cp-automatico/blob/main/z_respuestas.md'
 
 # Enviamos la solicitud HTTP autenticada
 response = requests.get(url, auth=(username, token))
